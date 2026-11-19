@@ -21,6 +21,7 @@ Site institucional da **Urbano Moto Service** — moto frete profissional em **R
 index.html                                   → página principal do site
 cidades-atendidas/index.html                 → hub de cidades da região
 entrega-rapida-por-motoboys-em-*/index.html  → página SEO por cidade (padrão Loggi)
+img/parceiros/                               → logomarcas de parceiros (seção "Parceiros e clientes")
 css/style.css                                → estilos (tema escuro + amarelo)
 js/main.js                                   → menu mobile, animações de scroll
 sitemap.xml / robots.txt                     → SEO
