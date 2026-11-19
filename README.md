@@ -4,8 +4,8 @@ Site institucional da **Urbano Moto Service** — moto frete profissional em **R
 
 > **Pediu. Buscou. Entregou.**
 
-🌐 **Site:** https://foodpets.github.io/urbano/
-📞 **WhatsApp:** (16) 99133-0338
+🌐 **Site:** https://entregasribeiraopreto.com.br/
+📞 **WhatsApp:** (16) 99409-4229
 
 ## Serviços
 
@@ -18,20 +18,24 @@ Site institucional da **Urbano Moto Service** — moto frete profissional em **R
 ## Estrutura
 
 ```
-index.html      → página única do site
-css/style.css   → estilos (tema escuro + amarelo)
-js/main.js      → menu mobile, animações de scroll
-.nojekyll       → evita processamento Jekyll no Pages
+index.html                                   → página principal do site
+cidades-atendidas/index.html                 → hub de cidades da região
+entrega-rapida-por-motoboys-em-*/index.html  → página SEO por cidade (padrão Loggi)
+css/style.css                                → estilos (tema escuro + amarelo)
+js/main.js                                   → menu mobile, animações de scroll
+sitemap.xml / robots.txt                     → SEO
+.nojekyll                                    → evita processamento Jekyll no Pages
 ```
 
 ## Como editar
 
 | O que | Onde |
 |---|---|
-| Telefone / WhatsApp | Buscar e substituir `5516991330338` e `(16) 99133-0338` no `index.html` |
+| Telefone / WhatsApp | Buscar e substituir `5516994094229` e `(16) 99409-4229` em `index.html` e nas pastas de cidades |
 | Textos e seções | `index.html` |
 | Cores | Variáveis no topo do `css/style.css` |
-| Cidades atendidas | Seção "Áreas" no `index.html` |
+| Bairros de Ribeirão Preto | `entrega-rapida-por-motoboys-em-ribeirao-preto/index.html` (regiões Norte, Leste, Oeste e Sul) |
+| Cidades atendidas | Pastas `entrega-rapida-por-motoboys-em-*/` + seção "Áreas" no `index.html` + `sitemap.xml` |
 
 ## Publicação
 
